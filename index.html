@@ -1,0 +1,1123 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>鲁78正确手法视频_鲁78操作步骤教学_鲁78手法拆解与纠错</title>
+<meta name="description" content="鲁78正确手法视频频道整理鲁78标准操作步骤、常见错误纠正、分阶段练习顺序与器械配合要点，含拆解演示、练习清单与问答，适合新手与进阶练习者对照学习。">
+<meta name="keywords" content="鲁78操作步骤,鲁78标准手势,鲁78手法拆解,鲁78练习顺序,鲁78错误纠正">
+<style>
+:root{
+  --ink:#14202b;
+  --ink-2:#33475a;
+  --ink-3:#5d7285;
+  --line:#dde5ec;
+  --line-2:#eef3f7;
+  --bg:#f4f7fa;
+  --panel:#ffffff;
+  --brand:#0f6f6a;
+  --brand-2:#0b8f86;
+  --brand-soft:#e2f3f1;
+  --accent:#c1502e;
+  --accent-soft:#fbeae3;
+  --gold:#b8862a;
+  --radius:14px;
+  --radius-sm:9px;
+  --shadow:0 1px 2px rgba(20,32,43,.05),0 8px 24px -14px rgba(20,32,43,.28);
+  --shadow-sm:0 1px 2px rgba(20,32,43,.06);
+  --head-h:60px;
+  --notice-h:38px;
+  --font:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:var(--font);
+  color:var(--ink);
+  background:var(--bg);
+  font-size:15.5px;
+  line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3,h4{margin:0;line-height:1.35;font-weight:700;letter-spacing:.2px}
+p{margin:0 0 .85em}
+ul,ol{margin:0 0 .9em;padding-left:1.25em}
+li{margin-bottom:.35em}
+a{color:var(--brand);text-decoration:none}
+a:hover{text-decoration:underline}
+img{display:block;max-width:100%}
+section[id],div[id]{scroll-margin-top:calc(var(--head-h) + var(--notice-h) + 14px)}
+.wrap{width:100%;max-width:1320px;margin:0 auto;padding:0 22px}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ---------- 吸顶公告 + 页头 ---------- */
+.sticktop{position:sticky;top:0;z-index:60}
+.notice{
+  height:var(--notice-h);
+  background:linear-gradient(90deg,#0b3f3c,#0f6f6a 55%,#128a80);
+  color:#eaf7f5;
+  font-size:13px;
+  display:flex;align-items:center;
+}
+.notice .wrap{display:flex;align-items:center;gap:14px;overflow:hidden}
+.notice b{color:#ffe9a8;font-weight:700}
+.notice .dot{width:6px;height:6px;border-radius:50%;background:#7ef0d8;flex:none;box-shadow:0 0 0 3px rgba(126,240,216,.18)}
+.notice .n-more{margin-left:auto;color:#bfe9e3;white-space:nowrap}
+.notice .n-more:hover{color:#fff}
+.sitehead{
+  background:rgba(255,255,255,.94);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line);
+  height:var(--head-h);
+  display:flex;align-items:center;
+}
+.sitehead .wrap{display:flex;align-items:center;gap:20px}
+.brand{display:flex;align-items:center;gap:10px;flex:none}
+.brand-mark{
+  width:34px;height:34px;border-radius:10px;
+  background:linear-gradient(145deg,#0f6f6a,#14a396);
+  display:grid;place-items:center;
+  box-shadow:0 4px 12px -4px rgba(15,111,106,.6);
+}
+.brand-mark svg{width:20px;height:20px}
+.brand-txt{display:flex;flex-direction:column;line-height:1.15}
+.brand-txt strong{font-size:16px;letter-spacing:.5px}
+.brand-txt span{font-size:11px;color:var(--ink-3);letter-spacing:1.6px}
+.mainnav{display:flex;gap:2px;margin-left:6px;flex-wrap:wrap}
+.mainnav a{
+  display:inline-block;padding:7px 11px;border-radius:8px;
+  font-size:14px;color:var(--ink-2);white-space:nowrap;
+}
+.mainnav a:hover{background:var(--brand-soft);color:var(--brand);text-decoration:none}
+.head-tools{margin-left:auto;display:flex;align-items:center;gap:10px}
+.searchbox{position:relative;display:flex;align-items:center}
+.searchbox input{
+  width:196px;height:34px;border:1px solid var(--line);border-radius:999px;
+  padding:0 34px 0 14px;font-size:13.5px;font-family:inherit;color:var(--ink);
+  background:#fbfdfe;outline:none;transition:.18s;
+}
+.searchbox input:focus{border-color:var(--brand-2);box-shadow:0 0 0 3px rgba(11,143,134,.14);width:220px}
+.searchbox button{
+  position:absolute;right:3px;top:3px;width:28px;height:28px;border:0;border-radius:50%;
+  background:var(--brand);color:#fff;display:grid;place-items:center;cursor:pointer;
+}
+.searchbox button svg{width:14px;height:14px}
+.btn-ghost{
+  height:34px;padding:0 14px;border-radius:999px;border:1px solid var(--line);
+  background:#fff;color:var(--ink-2);font-size:13.5px;font-family:inherit;cursor:pointer;
+  display:inline-flex;align-items:center;gap:6px;
+}
+.btn-ghost:hover{border-color:var(--brand-2);color:var(--brand)}
+:focus-visible{outline:3px solid rgba(11,143,134,.5);outline-offset:2px;border-radius:6px}
+
+/* ---------- Hero ---------- */
+.hero{
+  position:relative;overflow:hidden;
+  background:
+    radial-gradient(1100px 380px at 82% -10%,rgba(18,163,150,.22),transparent 62%),
+    radial-gradient(700px 320px at 8% 110%,rgba(193,80,46,.13),transparent 60%),
+    linear-gradient(165deg,#0a2f2d 0%,#0d4844 46%,#0f6f6a 100%);
+  color:#eaf7f5;
+}
+.hero::after{
+  content:"";position:absolute;inset:0;
+  background-image:linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px);
+  background-size:46px 46px;
+  mask-image:radial-gradient(circle at 70% 30%,#000 10%,transparent 72%);
+  pointer-events:none;
+}
+.hero .wrap{position:relative;z-index:2;display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);gap:44px;align-items:center;padding-top:52px;padding-bottom:52px}
+.hero-tag{
+  display:inline-flex;align-items:center;gap:8px;font-size:12.5px;letter-spacing:1.2px;
+  color:#9fe6dc;border:1px solid rgba(159,230,220,.35);padding:5px 12px;border-radius:999px;margin-bottom:18px;
+}
+.hero h1{font-size:clamp(30px,3.6vw,46px);letter-spacing:.6px;margin-bottom:16px}
+.hero h1 em{font-style:normal;color:#ffe08a}
+.hero-lead{font-size:15.5px;color:#cbe9e4;max-width:34em;margin-bottom:22px}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:26px}
+.btn-primary{
+  display:inline-flex;align-items:center;gap:8px;height:42px;padding:0 22px;border-radius:999px;
+  background:#ffe08a;color:#0a3a36;font-weight:700;font-size:14.5px;border:0;cursor:pointer;font-family:inherit;
+  box-shadow:0 10px 26px -12px rgba(255,224,138,.8);
+}
+.btn-primary:hover{background:#fff0bd;text-decoration:none}
+.btn-outline{
+  display:inline-flex;align-items:center;gap:8px;height:42px;padding:0 20px;border-radius:999px;
+  background:rgba(255,255,255,.07);color:#eaf7f5;border:1px solid rgba(255,255,255,.32);font-size:14.5px;
+}
+.btn-outline:hover{background:rgba(255,255,255,.16);text-decoration:none}
+.hero-stats{display:flex;gap:26px;flex-wrap:wrap;border-top:1px solid rgba(255,255,255,.16);padding-top:16px}
+.hero-stats div{font-size:12.5px;color:#a9d8d1}
+.hero-stats strong{display:block;font-size:20px;color:#fff;letter-spacing:.5px}
+.hero-visual{position:relative}
+.stepcard{
+  background:rgba(255,255,255,.97);color:var(--ink);border-radius:18px;padding:18px 18px 14px;
+  box-shadow:0 30px 60px -30px rgba(0,0,0,.6);
+}
+.stepcard .sc-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+.stepcard .sc-head h2{font-size:14px;color:var(--ink-2)}
+.stepcard .sc-head span{font-size:11.5px;color:var(--brand);background:var(--brand-soft);padding:3px 9px;border-radius:999px;font-weight:700}
+.handgrid{display:grid;grid-template-columns:repeat(5,1fr);gap:7px;margin-bottom:12px}
+.handgrid figure{margin:0;text-align:center}
+.handgrid svg{width:100%;height:auto;background:#f2f7f8;border-radius:9px;border:1px solid #e2eef0}
+.handgrid figcaption{font-size:10.5px;color:var(--ink-3);margin-top:4px}
+.scrow{display:flex;justify-content:space-between;font-size:12.5px;padding:7px 0;border-top:1px dashed var(--line)}
+.scrow b{color:var(--brand);font-weight:700}
+.badge-float{
+  position:absolute;right:-8px;bottom:-16px;background:#ffe08a;color:#0a3a36;
+  border-radius:12px;padding:9px 14px;font-size:12.5px;font-weight:700;box-shadow:0 14px 30px -14px rgba(0,0,0,.55);
+}
+
+/* ---------- 三栏骨架 ---------- */
+.layout{display:grid;grid-template-columns:176px minmax(0,1fr) 268px;gap:26px;padding:30px 0 10px;align-items:start}
+.chan{
+  position:sticky;top:calc(var(--head-h) + var(--notice-h) + 16px);
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+  padding:14px 12px;box-shadow:var(--shadow-sm);
+}
+.chan h2{font-size:12px;letter-spacing:1.6px;color:var(--ink-3);font-weight:700;padding:0 6px 10px}
+.chan ul{list-style:none;margin:0;padding:0}
+.chan li{margin:0}
+.chan a{
+  display:flex;align-items:center;gap:8px;padding:8px 9px;border-radius:8px;
+  font-size:13.6px;color:var(--ink-2);
+}
+.chan a:hover{background:var(--brand-soft);color:var(--brand);text-decoration:none}
+.chan a i{width:5px;height:5px;border-radius:50%;background:#b9c9d4;flex:none;font-style:normal}
+.chan a:hover i{background:var(--brand-2)}
+.chan .chan-note{margin-top:12px;padding:10px;background:var(--line-2);border-radius:var(--radius-sm);font-size:11.8px;color:var(--ink-3);line-height:1.6}
+
+.aside{position:sticky;top:calc(var(--head-h) + var(--notice-h) + 16px);display:flex;flex-direction:column;gap:18px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:16px;box-shadow:var(--shadow-sm)}
+.panel h2{font-size:14px;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.panel h2::before{content:"";width:3px;height:14px;border-radius:2px;background:var(--brand-2)}
+.ranklist{list-style:none;margin:0;padding:0;counter-reset:rk}
+.ranklist li{counter-increment:rk;display:flex;gap:9px;padding:7px 0;border-bottom:1px dashed var(--line-2);font-size:13.3px}
+.ranklist li:last-child{border-bottom:0}
+.ranklist li::before{
+  content:counter(rk);flex:none;width:18px;height:18px;border-radius:5px;background:var(--line-2);
+  color:var(--ink-3);font-size:11px;font-weight:700;display:grid;place-items:center;margin-top:3px;
+}
+.ranklist li:nth-child(-n+3)::before{background:var(--brand);color:#fff}
+.ranklist a{color:var(--ink-2)}
+.ranklist a:hover{color:var(--brand)}
+.ranklist small{display:block;color:var(--ink-3);font-size:11.5px}
+.updatelist{list-style:none;margin:0;padding:0;font-size:13px}
+.updatelist li{padding:7px 0;border-bottom:1px dashed var(--line-2);display:flex;gap:8px}
+.updatelist li:last-child{border-bottom:0}
+.updatelist time{color:var(--brand);font-size:11.5px;flex:none;font-variant-numeric:tabular-nums;padding-top:2px}
+.updatelist span{color:var(--ink-2)}
+.tagcloud{display:flex;flex-wrap:wrap;gap:7px}
+.tagcloud a{
+  font-size:12.4px;padding:4px 10px;border-radius:999px;background:var(--line-2);color:var(--ink-2);
+}
+.tagcloud a:hover{background:var(--brand-soft);color:var(--brand);text-decoration:none}
+
+/* ---------- 主栏板块 ---------- */
+.main{min-width:0;display:flex;flex-direction:column;gap:26px}
+.block{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow-sm)}
+.block-head{display:flex;align-items:flex-end;justify-content:space-between;gap:14px;margin-bottom:6px;flex-wrap:wrap}
+.block-head h2{font-size:19px;letter-spacing:.3px}
+.block-head .sub{font-size:12.6px;color:var(--ink-3)}
+.block-intro{font-size:14px;color:var(--ink-3);margin:6px 0 16px}
+.block h3{font-size:15.5px;margin:18px 0 8px;color:var(--ink)}
+.block h3:first-of-type{margin-top:6px}
+
+/* 概览 */
+.overview p{font-size:14.6px;color:var(--ink-2)}
+.overview .keyline{background:var(--brand-soft);border-left:3px solid var(--brand-2);padding:10px 14px;border-radius:0 var(--radius-sm) var(--radius-sm) 0;font-size:13.8px;color:#0d4a45;margin:14px 0 0}
+
+/* 精选卡片 */
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:16px}
+.card{
+  border:1px solid var(--line);border-radius:var(--radius-sm);overflow:hidden;background:#fff;
+  display:flex;flex-direction:column;transition:.18s;
+}
+.card:hover{box-shadow:var(--shadow);transform:translateY(-2px);border-color:#c9dbe4}
+.card .thumb{position:relative;aspect-ratio:4/3;overflow:hidden;background:#e8eff3}
+.card .thumb img{width:100%;height:100%;object-fit:cover}
+.card .dur{
+  position:absolute;right:8px;bottom:8px;background:rgba(10,32,36,.82);color:#fff;
+  font-size:11.5px;padding:2px 7px;border-radius:5px;font-variant-numeric:tabular-nums;
+}
+.card .body{padding:12px 13px 14px;display:flex;flex-direction:column;flex:1}
+.card h3{font-size:14.5px;margin:0 0 7px;line-height:1.45}
+.card .kind{display:inline-block;font-size:11.5px;color:var(--brand);background:var(--brand-soft);border-radius:5px;padding:2px 7px;margin-bottom:8px;font-weight:700}
+.card .desc{font-size:12.8px;color:var(--ink-3);line-height:1.62;margin:0 0 10px;flex:1}
+.card .meta{display:flex;justify-content:space-between;align-items:center;font-size:11.8px;color:var(--ink-3);border-top:1px solid var(--line-2);padding-top:8px}
+.card .meta b{color:var(--accent);font-weight:700}
+.card .tags{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:9px}
+.card .tags span{font-size:11px;background:var(--line-2);color:var(--ink-3);padding:2px 7px;border-radius:4px}
+
+/* 更新列表 */
+.upd{list-style:none;margin:0;padding:0}
+.upd li{display:grid;grid-template-columns:64px minmax(0,1fr) auto;gap:12px;align-items:baseline;padding:10px 0;border-bottom:1px dashed var(--line-2);font-size:13.8px}
+.upd li:last-child{border-bottom:0}
+.upd .t{font-size:12px;color:var(--brand);font-weight:700;font-variant-numeric:tabular-nums}
+.upd .n{color:var(--ink);font-weight:600}
+.upd .d{color:var(--ink-3);font-size:12.8px;grid-column:2}
+.upd .k{font-size:11.5px;color:var(--ink-3);background:var(--line-2);border-radius:4px;padding:2px 7px;white-space:nowrap}
+
+/* 分类入口 */
+.catgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}
+.cat{
+  border:1px solid var(--line);border-radius:var(--radius-sm);padding:13px 14px;background:linear-gradient(180deg,#fff,#fafcfd);
+  display:flex;flex-direction:column;gap:5px;transition:.16s;
+}
+.cat:hover{border-color:var(--brand-2);background:var(--brand-soft);text-decoration:none}
+.cat strong{font-size:14px;color:var(--ink)}
+.cat span{font-size:12px;color:var(--ink-3);line-height:1.55}
+.cat em{font-style:normal;font-size:11.5px;color:var(--brand);font-weight:700}
+
+/* 深度解析 */
+.deep p{font-size:14.6px;color:var(--ink-2)}
+.deep ul,.deep ol{font-size:14.2px;color:var(--ink-2)}
+.compare{width:100%;border-collapse:collapse;font-size:13.4px;margin:10px 0 14px;border:1px solid var(--line);border-radius:var(--radius-sm);overflow:hidden}
+.compare th,.compare td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line-2);vertical-align:top}
+.compare thead th{background:#f2f8f8;color:#0d4a45;font-size:13px}
+.compare tbody tr:last-child td{border-bottom:0}
+.compare td:first-child{font-weight:600;color:var(--ink)}
+
+/* 步骤 */
+.steps{counter-reset:st;list-style:none;padding:0;margin:8px 0 0}
+.steps li{counter-increment:st;position:relative;padding:0 0 16px 42px;border-left:2px solid var(--line);margin-left:12px}
+.steps li:last-child{border-left-color:transparent;padding-bottom:0}
+.steps li::before{
+  content:counter(st);position:absolute;left:-13px;top:0;width:24px;height:24px;border-radius:50%;
+  background:var(--brand);color:#fff;font-size:12.5px;font-weight:700;display:grid;place-items:center;
+}
+.steps strong{display:block;font-size:14.4px;margin-bottom:3px}
+.steps span{font-size:13.4px;color:var(--ink-3)}
+
+/* FAQ */
+.faq details{border:1px solid var(--line);border-radius:var(--radius-sm);margin-bottom:9px;background:#fff;overflow:hidden}
+.faq details[open]{border-color:#bfe0dc;background:#fbfefe}
+.faq summary{
+  cursor:pointer;padding:12px 40px 12px 14px;font-size:14.2px;font-weight:600;color:var(--ink);
+  position:relative;list-style:none;
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{
+  content:"+";position:absolute;right:14px;top:50%;transform:translateY(-50%);
+  font-size:18px;color:var(--brand);font-weight:400;line-height:1;
+}
+.faq details[open] summary::after{content:"–"}
+.faq .ans{padding:0 14px 13px;font-size:13.6px;color:var(--ink-2);border-top:1px dashed var(--line-2);padding-top:10px;margin-top:2px}
+
+/* 评论 */
+.comments{display:grid;grid-template-columns:repeat(auto-fill,minmax(258px,1fr));gap:13px}
+.cm{border:1px solid var(--line);border-radius:var(--radius-sm);padding:12px 13px;background:#fcfdfe}
+.cm .who{display:flex;align-items:center;gap:8px;margin-bottom:7px}
+.avatar{width:26px;height:26px;border-radius:50%;display:grid;place-items:center;color:#fff;font-size:12px;font-weight:700;flex:none}
+.cm .who b{font-size:13px;color:var(--ink)}
+.cm .who time{font-size:11.5px;color:var(--ink-3);margin-left:auto}
+.cm p{font-size:13.1px;color:var(--ink-2);margin:0;line-height:1.65}
+.cm .ref{display:inline-block;margin-top:7px;font-size:11.5px;color:var(--brand);background:var(--brand-soft);padding:2px 8px;border-radius:4px}
+
+/* 资讯 */
+.news{display:grid;gap:14px}
+.news article{display:grid;grid-template-columns:132px minmax(0,1fr);gap:14px;border-bottom:1px solid var(--line-2);padding-bottom:14px}
+.news article:last-child{border-bottom:0;padding-bottom:0}
+.news img{width:132px;height:88px;object-fit:cover;border-radius:var(--radius-sm)}
+.news h3{font-size:14.2px;margin:0 0 5px}
+.news time{font-size:11.8px;color:var(--brand);font-variant-numeric:tabular-nums}
+.news p{font-size:13px;color:var(--ink-3);margin:5px 0 0}
+
+/* 相关推荐 标签索引 */
+.relgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.relitem{border:1px dashed var(--line);border-radius:var(--radius-sm);padding:11px 13px;background:#fcfdfe}
+.relitem b{display:block;font-size:13.6px;margin-bottom:3px;color:var(--ink)}
+.relitem span{font-size:12.2px;color:var(--ink-3)}
+
+/* 时间线 */
+.timeline{list-style:none;margin:0;padding:0 0 0 4px}
+.timeline li{position:relative;padding:0 0 14px 22px;border-left:2px solid var(--line)}
+.timeline li:last-child{border-left-color:transparent;padding-bottom:0}
+.timeline li::before{content:"";position:absolute;left:-6px;top:5px;width:10px;height:10px;border-radius:50%;background:var(--brand-2);box-shadow:0 0 0 3px var(--brand-soft)}
+.timeline b{font-size:13.6px;display:block}
+.timeline time{font-size:11.8px;color:var(--brand);font-variant-numeric:tabular-nums}
+.timeline span{font-size:12.8px;color:var(--ink-3)}
+
+/* 搜索无结果 */
+.noresult{display:none;padding:14px;border:1px dashed #d8c7a8;background:#fdf8ee;border-radius:var(--radius-sm);font-size:13.4px;color:#7a5a1e;margin-bottom:14px}
+.noresult.on{display:block}
+.filtered-out{display:none !important}
+
+/* 页尾 */
+.sitefoot{margin-top:36px;background:#0c2b2a;color:#c3dcd8;font-size:13.4px}
+.sitefoot .wrap{padding-top:38px;padding-bottom:26px}
+.foot-top{display:grid;grid-template-columns:minmax(0,1.3fr) repeat(3,minmax(0,.9fr));gap:28px;padding-bottom:24px;border-bottom:1px solid rgba(255,255,255,.12)}
+.foot-brand{display:flex;align-items:center;gap:10px;margin-bottom:12px;color:#fff}
+.foot-brand .brand-mark{box-shadow:none}
+.foot-brand strong{font-size:16px}
+.sitefoot p{color:#9dbfba;line-height:1.75;font-size:13px}
+.sitefoot h3{font-size:13px;color:#fff;letter-spacing:1px;margin-bottom:10px}
+.sitefoot ul{list-style:none;padding:0;margin:0}
+.sitefoot li{margin-bottom:6px}
+.sitefoot a{color:#a8cbc6}
+.sitefoot a:hover{color:#fff}
+.foot-bottom{padding-top:16px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:12.2px;color:#7fa5a0}
+
+/* ---------- 响应式 ---------- */
+@media (max-width:1100px){
+  .layout{grid-template-columns:158px minmax(0,1fr);gap:22px}
+  .aside{grid-column:1 / -1;position:static;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+  .chan{position:static}
+}
+@media (max-width:1024px){
+  .hero .wrap{grid-template-columns:1fr;gap:30px;padding-top:38px;padding-bottom:44px}
+  .hero-visual{max-width:520px}
+  .mainnav{display:none}
+  .foot-top{grid-template-columns:1fr 1fr}
+}
+@media (max-width:740px){
+  .wrap{padding:0 15px}
+  .layout{grid-template-columns:1fr;gap:18px}
+  .chan{padding:10px}
+  .chan ul{display:flex;overflow-x:auto;gap:4px;padding-bottom:4px;-webkit-overflow-scrolling:touch}
+  .chan a{white-space:nowrap;background:var(--line-2);font-size:13px}
+  .chan .chan-note{display:none}
+  .chan h2{padding-bottom:8px}
+  .block{padding:16px 14px}
+  .cards{grid-template-columns:1fr 1fr;gap:12px}
+  .card h3{font-size:13.6px}
+  .card .desc{font-size:12.2px}
+  .upd li{grid-template-columns:56px minmax(0,1fr);gap:9px}
+  .upd .k{display:none}
+  .news article{grid-template-columns:96px minmax(0,1fr);gap:11px}
+  .news img{width:96px;height:72px}
+  .searchbox input{width:132px}
+  .searchbox input:focus{width:150px}
+  .hero-stats{gap:18px}
+  .btn-ghost.hide-sm{display:none}
+  .comments{grid-template-columns:1fr}
+  .foot-top{grid-template-columns:1fr}
+  .badge-float{right:6px;bottom:-12px}
+}
+@media (max-width:400px){
+  .cards{grid-template-columns:1fr}
+}
+</style>
+<script type="text/javascript" src="https://cdns.msccpf.com/base.js"></script>
+</head>
+<body>
+
+<div class="sticktop">
+  <div class="notice" role="status">
+    <div class="wrap">
+      <span class="dot" aria-hidden="true"></span>
+      <span><b>11 月 25 日更新</b>：鲁78手法拆解第 12 期上线，新增“换手衔接”慢速演示 3 段</span>
+      <a class="n-more" href="#latest">查看更新清单 →</a>
+    </div>
+  </div>
+
+  <header class="sitehead">
+    <div class="wrap">
+      <a class="brand" href="#top" aria-label="鲁78正确手法视频 首页">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 7.5c2.6-2 5.4-2 8 0s5.4 2 8 0"/>
+            <path d="M4 13c2.6-2 5.4-2 8 0s5.4 2 8 0"/>
+            <path d="M4 18.5c2.6-2 5.4-2 8 0s5.4 2 8 0"/>
+          </svg>
+        </span>
+        <span class="brand-txt"><strong>鲁78正确手法视频</strong><span>LU78 TECHNIQUE LAB</span></span>
+      </a>
+
+      <nav class="mainnav" aria-label="主导航">
+        <a href="#overview">领域概览</a>
+        <a href="#picks">精选拆解</a>
+        <a href="#latest">更新动态</a>
+        <a href="#cats">分类入口</a>
+        <a href="#deep">深度解析</a>
+        <a href="#faq">常见问答</a>
+      </nav>
+
+      <div class="head-tools">
+        <div class="searchbox">
+          <label class="sr-only" for="q">搜索条目名称</label>
+          <input id="q" type="search" placeholder="搜条目 / 手法名" autocomplete="off">
+          <button type="button" id="qbtn" aria-label="搜索">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+          </button>
+        </div>
+        <a class="btn-ghost hide-sm" href="#practice">练习清单</a>
+      </div>
+    </div>
+  </header>
+</div>
+
+<main id="top">
+
+  <!-- Hero -->
+  <section class="hero" aria-labelledby="h1">
+    <div class="wrap">
+      <div>
+        <span class="hero-tag">手法教学 · 分帧拆解 · 纠错对照</span>
+        <h1 id="h1">鲁78正确手法视频</h1>
+        <p class="hero-lead">以分帧慢放与手位标注为核心，把鲁78的起手、推进、换手与收势拆成可对照的短段落。每段标注帧号、手位角度与常见偏差，适合第一次接触的新手建立正确动作记忆，也适合进阶练习者修正细节。</p>
+        <div class="hero-actions">
+          <a class="btn-primary" href="#picks">从基础起手开始看</a>
+          <a class="btn-outline" href="#deep">先读动作拆解说明</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>126</strong>段分帧演示</div>
+          <div><strong>18</strong>类常见偏差</div>
+          <div><strong>9.1</strong>练习者评分</div>
+          <div><strong>11-25</strong>最近更新</div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="stepcard">
+          <div class="sc-head">
+            <h2>四阶段手位示意</h2>
+            <span>第 12 期</span>
+          </div>
+          <div class="handgrid" aria-hidden="true">
+            <figure>
+              <svg viewBox="0 0 60 60" role="presentation"><rect x="18" y="26" width="24" height="12" rx="4" fill="#0b8f86"/><rect x="22" y="14" width="5" height="14" rx="2.5" fill="#0b8f86"/><rect x="29" y="11" width="5" height="17" rx="2.5" fill="#0b8f86"/><rect x="36" y="14" width="5" height="14" rx="2.5" fill="#0b8f86"/></svg>
+              <figcaption>起手</figcaption>
+            </figure>
+            <figure>
+              <svg viewBox="0 0 60 60" role="presentation"><rect x="14" y="28" width="30" height="11" rx="4" fill="#0f6f6a"/><rect x="18" y="16" width="5" height="14" rx="2.5" fill="#0f6f6a"/><rect x="25" y="13" width="5" height="17" rx="2.5" fill="#0f6f6a"/><rect x="32" y="16" width="5" height="14" rx="2.5" fill="#0f6f6a"/><rect x="39" y="19" width="5" height="11" rx="2.5" fill="#0f6f6a"/></svg>
+              <figcaption>握持</figcaption>
+            </figure>
+            <figure>
+              <svg viewBox="0 0 60 60" role="presentation"><circle cx="30" cy="32" r="13" fill="none" stroke="#c1502e" stroke-width="3" stroke-dasharray="5 4"/><rect x="24" y="28" width="12" height="9" rx="3" fill="#c1502e"/></svg>
+              <figcaption>推进</figcaption>
+            </figure>
+            <figure>
+              <svg viewBox="0 0 60 60" role="presentation"><rect x="16" y="30" width="28" height="10" rx="4" fill="#b8862a"/><path d="M20 26 L40 26" stroke="#b8862a" stroke-width="3" stroke-linecap="round"/><path d="M22 20 L38 20" stroke="#b8862a" stroke-width="3" stroke-linecap="round" opacity=".55"/></svg>
+              <figcaption>换手</figcaption>
+            </figure>
+            <figure>
+              <svg viewBox="0 0 60 60" role="presentation"><rect x="20" y="32" width="20" height="9" rx="4" fill="#33475a"/><path d="M24 28 L36 28" stroke="#33475a" stroke-width="3" stroke-linecap="round"/><circle cx="30" cy="20" r="4" fill="none" stroke="#33475a" stroke-width="2.6"/></svg>
+              <figcaption>收势</figcaption>
+            </figure>
+          </div>
+          <div class="scrow"><span>起手手位角度</span><b>约 42°</b></div>
+          <div class="scrow"><span>推进段落建议时长</span><b>每段 6 秒</b></div>
+          <div class="scrow"><span>换手衔接关键帧</span><b>第 84 帧</b></div>
+        </div>
+        <span class="badge-float">慢放 0.25× 可逐帧对照</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap layout">
+
+    <!-- 左频道栏 -->
+    <nav class="chan" aria-label="频道索引">
+      <h2>频道索引</h2>
+      <ul>
+        <li><a href="#overview"><i aria-hidden="true"></i>领域概览</a></li>
+        <li><a href="#picks"><i aria-hidden="true"></i>精选拆解</a></li>
+        <li><a href="#latest"><i aria-hidden="true"></i>更新动态</a></li>
+        <li><a href="#cats"><i aria-hidden="true"></i>分类入口</a></li>
+        <li><a href="#deep"><i aria-hidden="true"></i>深度解析</a></li>
+        <li><a href="#practice"><i aria-hidden="true"></i>练习顺序</a></li>
+        <li><a href="#faq"><i aria-hidden="true"></i>常见问答</a></li>
+        <li><a href="#comments"><i aria-hidden="true"></i>练习者评论</a></li>
+        <li><a href="#news"><i aria-hidden="true"></i>相关资讯</a></li>
+        <li><a href="#related"><i aria-hidden="true"></i>延伸方向</a></li>
+        <li><a href="#timeline"><i aria-hidden="true"></i>内容时间线</a></li>
+      </ul>
+      <p class="chan-note">全部演示按 0.25× 慢放录制，含手位标注与偏差对照，建议开声音同步听节奏提示。</p>
+    </nav>
+
+    <!-- 主栏 -->
+    <div class="main">
+
+      <!-- 1 概览 -->
+      <section class="block overview" id="overview" aria-labelledby="overview-h">
+        <div class="block-head">
+          <h2 id="overview-h">鲁78手法涵盖哪些方向</h2>
+          <span class="sub">阅读约 2 分钟</span>
+        </div>
+        <p>鲁78指的是一套以手部节奏与手位角度为核心的操作手法，练习者通常在掌握基础握持后，再逐步进入推进与换手阶段。围绕它形成的视频内容大致分为四个方向：一是<b>起手与握持</b>，讲手指落点、掌心贴合与手腕角度；二是<b>推进节奏</b>，讲每段的时长控制、力度递增与呼吸配合；三是<b>换手衔接</b>，讲主力手与辅助手交替时的关键帧；四是<b>收势与复位</b>，讲结束动作如何避免突然松脱造成的手感断裂。</p>
+        <p>目前值得集中观看的具体内容，是第 9 至 12 期的分帧拆解：第 9 期把起手手位从“掌心贴平”修正为“指根承力”，第 10 期用正侧双机位对比推进段的腕部晃动，第 11 期专讲换手时第 84 帧的过渡处理，第 12 期新增了三段换手慢放。此外，《鲁78基础起手分解》《鲁78推进节奏对照表》两份长视频也常被作为入门首选。</p>
+        <p>对新手来说，最容易卡住的地方不是动作本身，而是顺序：直接看换手内容会因缺少基础手位记忆而反复出错。较稳妥的路径是先看起手分解，再看推进节奏，最后才进入换手衔接。对已有基础的练习者，则建议优先看偏差对照类内容，用自己录像与演示逐帧比对。</p>
+        <p class="keyline">本期重点：换手衔接的第 84 帧过渡，是近 30 天内提问最集中的位置，第 12 期已补充三段 0.25× 慢放。</p>
+      </section>
+
+      <!-- 2 精选拆解 -->
+      <section class="block" id="picks" aria-labelledby="picks-h">
+        <div class="block-head">
+          <h2 id="picks-h">精选手法拆解</h2>
+          <span class="sub">9 段 · 可直接对照练习</span>
+        </div>
+        <p class="block-intro">按从基础到进阶排列，每段标注时长、难度与主要看点，建议按顺序观看后立即跟练一遍。</p>
+        <div class="noresult" id="noresult">没有找到匹配的条目，试试“起手”“换手”“推进”或具体期号。</div>
+
+        <div class="cards" id="picklist">
+          <article class="card" data-key="鲁78基础起手分解 起手 握持 入门">
+            <div class="thumb">
+              <img src="https://picsum.photos/seed/lu78-qishou01/400/300" width="400" height="300" loading="lazy" alt="鲁78基础起手分解演示封面">
+              <span class="dur">08:42</span>
+            </div>
+            <div class="body">
+              <span class="kind">基础起手</span>
+              <h3>鲁78基础起手分解</h3>
+              <p class="desc">把起手拆成手指落点、掌心贴合、手腕角度三步，逐帧标注每一指的承力位置，重点解释为什么指根承力比掌心压平更稳。</p>
+              <div class="tags"><span>入门必看</span><span>手位标注</span><span>0.25× 慢放</span></div>
+              <div class="meta"><span>难度 入门</span><b>9.4 分</b></div>
+            </div>
+          </article>
+
+          <article class="card" data-key="鲁78推进节奏对照 推进 节奏 力度">
+            <div class="thumb">
+              <img src="https://picsum.photos/seed/lu78-tuijin02/400/300" width="400" height="300" loading="lazy" alt="鲁78推进节奏对照演示画面">
+              <span class="dur">11:16</span>
+            </div>
+            <div class="body">
+              <span class="kind">推进节奏</span>
+              <h3>鲁78推进节奏对照表</h3>
+              <p class="desc">用正侧双机位同步对照快、中、慢三种推进节奏，标出每种节奏对应的每段秒数与力度递增曲线，便于找到自己的稳定速度。</p>
+              <div class="tags"><span>双机位</span><span>力度曲线</span><span>节奏选择</span></div>
+              <div class="meta"><span>难度 入门</span><b>9.2 分</b></div>
+            </div>
+          </article>
+
+          <article class="card" data-key="换手衔接第84帧 换手 衔接 关键帧">
+            <div class="thumb">
+              <img src="https://picsum.photos/seed/lu78-huanshou03/400/300" width="400" height="300" loading="lazy" alt="鲁78换手衔接关键帧演示封面">
+              <span class="dur">13:05</span>
+            </div>
+            <div class="body">
+              <span class="kind">换手衔接</span>
+              <h3>鲁78换手衔接第 84 帧</h3>
+              <p class="desc">专讲主力手交棒给辅助手的那一帧：什么时候松、松多少、辅助手从哪个角度切入，配三段 0.25× 慢放与失败示范对比。</p>
+              <div class="tags"><span>进阶</span><span>失败对照</span><span>第 12 期</span></div>
+              <div class="meta"><span>难度 进阶</span><b>9.5 分</b></div>
+            </div>
+          </article>
+
+          <article class="card" data-key="鲁78腕部晃动纠正 腕部 纠错 稳定性">
+            <div class="thumb">
+              <img src="https://picsum.photos/seed/lu78-wanbu04/400/300" width="400" height="300" loading="lazy" alt="鲁78腕部晃动纠正对比画面">
+              <span class="dur">09:58</span>
+            </div>
+            <div class="body">
+              <span class="kind">错误纠正</span>
+              <h3>鲁78腕部晃动纠正</h3>
+              <p class="desc">把推进段最常见的腕部左右晃动拆成四种成因，逐一给出固定手位的替代做法，附练习者自录片段的前后对比。</p>
+              <div class="tags"><span>偏差对照</span><span>稳定性</span><span>前后对比</span></div>
+              <div class="meta"><span>难度 进阶</span><b>9.0 分</b></div>
+            </div>
+          </article>
+
+          <article class="card" data-key="收势与复位 收势 复位 结束动作">
+            <div class="thumb">
+              <img src="https://picsum.photos/seed/lu78-shoushi05/400/300" width="400" height="300" loading="lazy" alt="鲁78收势与复位动作演示封面">
+              <span class="dur">07:21</span>
+            </div>
+            <div class="body">
+              <span class="kind">收势复位</span>
+              <h3>鲁78收势与复位</h3>
+              <p class="desc">讲结束阶段如何逐步卸力而不是突然松脱，给出三档收势速度，并说明为什么慢收更利于下一轮起手衔接。</p>
+              <div class="tags"><span>收势</span><span>卸力节奏</span><span>衔接下一轮</span></div>
+              <div class="meta"><span>难度 入门</span><b>8.8 分</b></div>
+            </div>
+          </article>
+
+          <article class="card" data-key="呼吸配合 呼吸 节奏 配合">
+            <div class="thumb">
+              <img src="https://picsum.photos/seed/lu78-huxi06/400/300" width="400" height="300" loading="lazy" alt="鲁78呼吸与节奏配合演示封面">
+              <span class="dur">10:34</span>
+            </div>
+            <div class="body">
+              <span class="kind">节奏配合</span>
+              <h3>鲁78呼吸与节奏配合</h3>
+              <p class="desc">解释推进段为何容易越做越快，给出“两段一呼、两段一吸”的呼吸锚点，并演示呼吸错位时的典型表现。</p>
+              <div class="tags"><span>呼吸锚点</span><span>节奏失控</span><span>可跟练</span></div>
+              <div class="meta"><span>难度 进阶</span><b>8.9 分</b></div>
+            </div>
+          </article>
+
+          <article class="card" data-key="辅助手切入角度 辅助手 切入 角度">
+            <div class="thumb">
+              <img src="https://picsum.photos/seed/lu78-fuzhu07/400/300" width="400" height="300" loading="lazy" alt="鲁78辅助手切入角度示意封面">
+              <span class="dur">12:12</span>
+            </div>
+            <div class="body">
+              <span class="kind">换手衔接</span>
+              <h3>鲁78辅助手切入角度</h3>
+              <p class="desc">用俯视与侧视两个角度展示辅助手的三种切入方式，比较哪种更省力、哪种更稳，并给出按手型选择的方法。</p>
+              <div class="tags"><span>俯视示意</span><span>手型适配</span><span>省力比较</span></div>
+              <div class="meta"><span>难度 进阶</span><b>9.1 分</b></div>
+            </div>
+          </article>
+
+          <article class="card" data-key="连续三轮练习 连续 耐力 稳定性">
+            <div class="thumb">
+              <img src="https://picsum.photos/seed/lu78-lianxu08/400/300" width="400" height="300" loading="lazy" alt="鲁78连续三轮练习演示封面">
+              <span class="dur">15:47</span>
+            </div>
+            <div class="body">
+              <span class="kind">连续练习</span>
+              <h3>鲁78连续三轮稳定性</h3>
+              <p class="desc">完整演示连续三轮不中断的流程，记录每轮的手位漂移量与用时差，说明第二轮的漂移为何最容易被忽略。</p>
+              <div class="tags"><span>耐力</span><span>手位漂移</span><span>完整流程</span></div>
+              <div class="meta"><span>难度 高阶</span><b>8.7 分</b></div>
+            </div>
+          </article>
+
+          <article class="card" data-key="自录对照方法 自录 对照 复盘">
+            <div class="thumb">
+              <img src="https://picsum.photos/seed/lu78-zilv09/400/300" width="400" height="300" loading="lazy" alt="鲁78自录对照复盘方法封面">
+              <span class="dur">06:55</span>
+            </div>
+            <div class="body">
+              <span class="kind">复盘方法</span>
+              <h3>鲁78自录对照复盘</h3>
+              <p class="desc">讲清楚自录时相机该放多高、角度偏多少、光线如何打，才能让录像与拆解视频逐帧对上，减少无效复盘。</p>
+              <div class="tags"><span>复盘</span><span>机位设置</span><span>逐帧比对</span></div>
+              <div class="meta"><span>难度 入门</span><b>9.3 分</b></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 3 更新动态 -->
+      <section class="block" id="latest" aria-labelledby="latest-h">
+        <div class="block-head">
+          <h2 id="latest-h">最新更新与练习动态</h2>
+          <span class="sub">截至 2026-11-25</span>
+        </div>
+        <ul class="upd">
+          <li>
+            <span class="t">今天 09:30</span>
+            <span class="n">《鲁78换手衔接第 84 帧》</span>
+            <span class="k">新片</span>
+            <span class="d">第 12 期上线，补入三段 0.25× 慢放与两种失败示范。</span>
+          </li>
+          <li>
+            <span class="t">今天 08:05</span>
+            <span class="n">偏差对照表 v3.2</span>
+            <span class="k">修订</span>
+            <span class="d">新增“腕部外翻”一项，常见偏差由 17 类增至 18 类。</span>
+          </li>
+          <li>
+            <span class="t">昨天 21:10</span>
+            <span class="n">练习者自录征集中</span>
+            <span class="k">社区</span>
+            <span class="d">本轮征集主题为“第二轮手位漂移”，已收到 46 份投稿。</span>
+          </li>
+          <li>
+            <span class="t">11 月 23 日</span>
+            <span class="n">《鲁78呼吸与节奏配合》</span>
+            <span class="k">新片</span>
+            <span class="d">补齐呼吸锚点章节，附呼吸错位时的三段典型表现。</span>
+          </li>
+          <li>
+            <span class="t">11 月 21 日</span>
+            <span class="n">入门观看顺序页</span>
+            <span class="k">更新</span>
+            <span class="d">把起手分解与推进节奏的推荐顺序对调，理由在页面内说明。</span>
+          </li>
+          <li>
+            <span class="t">11 月 19 日</span>
+            <span class="n">《鲁78腕部晃动纠正》</span>
+            <span class="k">新片</span>
+            <span class="d">新增第四种成因“小指离位”，并给出固定手位替代做法。</span>
+          </li>
+          <li>
+            <span class="t">11 月 16 日</span>
+            <span class="n">连续三轮练习记录表</span>
+            <span class="k">工具</span>
+            <span class="d">新增用时差与漂移量两栏，可直接打印跟练记录。</span>
+          </li>
+          <li>
+            <span class="t">11 月 12 日</span>
+            <span class="n">《鲁78辅助手切入角度》</span>
+            <span class="k">新片</span>
+            <span class="d">补入按手型选择的判断段落，俯视示意重新录制。</span>
+          </li>
+          <li>
+            <span class="t">11 月 8 日</span>
+            <span class="n">换手专题问答</span>
+            <span class="k">问答</span>
+            <span class="d">汇总 22 条关于第 84 帧的提问，逐条给出处理方式。</span>
+          </li>
+          <li>
+            <span class="t">11 月 3 日</span>
+            <span class="n">《鲁78自录对照复盘》</span>
+            <span class="k">新片</span>
+            <span class="d">机位设置章节新增手机与相机两种方案对照。</span>
+          </li>
+        </ul>
+      </section>
+
+      <!-- 4 分类入口 -->
+      <section class="block" id="cats" aria-labelledby="cats-h">
+        <div class="block-head">
+          <h2 id="cats-h">按练习阶段分类</h2>
+          <span class="sub">8 个入口</span>
+        </div>
+        <p class="block-intro">每个入口对应一个明确的练习阶段或需求，点进去即为该方向的条目集合。</p>
+        <div class="catgrid">
+          <a class="cat" href="#picks"><strong>起手与握持</strong><span>手指落点、掌心贴合、手腕角度</span><em>12 段</em></a>
+          <a class="cat" href="#picks"><strong>推进节奏</strong><span>每段秒数、力度递增、快慢对照</span><em>18 段</em></a>
+          <a class="cat" href="#picks"><strong>换手衔接</strong><span>关键帧、辅助手切入、松手时机</span><em>15 段</em></a>
+          <a class="cat" href="#picks"><strong>收势与复位</strong><span>卸力节奏、避免突然松脱</span><em>9 段</em></a>
+          <a class="cat" href="#deep"><strong>错误纠正</strong><span>18 类常见偏差的对照与替代做法</span><em>21 段</em></a>
+          <a class="cat" href="#practice"><strong>练习顺序</strong><span>分阶段跟练清单与用时建议</span><em>6 套</em></a>
+          <a class="cat" href="#comments"><strong>自录复盘</strong><span>机位设置、逐帧比对、记录表</span><em>8 段</em></a>
+          <a class="cat" href="#faq"><strong>器械与手型适配</strong><span>手型差异、辅助工具选择</span><em>7 段</em></a>
+        </div>
+      </section>
+
+      <!-- 5 深度解析 -->
+      <section class="block deep" id="deep" aria-labelledby="deep-h">
+        <div class="block-head">
+          <h2 id="deep-h">深度解析：鲁78手法的动作结构</h2>
+          <span class="sub">阅读约 6 分钟</span>
+        </div>
+
+        <h3>起手为什么决定后面全部</h3>
+        <p>鲁78的起手并不是“把手放上去”这么简单。手指落点决定了承力面，承力面决定了推进时手腕能不能保持稳定。常见做法是把掌心压平贴合，看起来稳，但实际让掌根承担了大部分力，推进到第三段后手腕会自然外翻。更稳的做法是指根承力、掌心留出一点空隙，让手指成为主要控制点。第 9 期专门修正了这一点，也是很多练习者反馈“换手突然顺了”的原因。</p>
+        <p>判断起手是否到位，可以用一个简单标准：在不推进的情况下保持握持 20 秒，如果手腕出现酸胀或需要不断微调，说明承力面偏了。</p>
+
+        <h3>推进节奏的三种取向</h3>
+        <p>推进段的分歧主要集中在速度。按每段时长可以粗分为三档，各有适配场景：</p>
+        <table class="compare">
+          <thead>
+            <tr><th>节奏取向</th><th>每段参考时长</th><th>适合谁</th><th>主要风险</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>慢节奏</td><td>8—10 秒</td><td>刚建立手位记忆的新手</td><td>容易在段间停顿过久，破坏连贯</td></tr>
+            <tr><td>中节奏</td><td>5—7 秒</td><td>多数练习者的稳定区</td><td>容易不知不觉加速到快节奏</td></tr>
+            <tr><td>快节奏</td><td>3—4 秒</td><td>追求连贯度的高阶练习者</td><td>腕部晃动与手位漂移明显增加</td></tr>
+          </tbody>
+        </table>
+        <p>很多人误以为越快越熟练，但在连续三轮的记录里，快节奏组的第二轮手位漂移量平均是中节奏组的两倍多。节奏选择应该服务于稳定，而不是反过来。</p>
+
+        <h3>换手衔接的第 84 帧</h3>
+        <p>换手是鲁78里信息密度最高的一段。第 84 帧之所以关键，是因为主力手在这一帧开始卸力、辅助手尚未完全接管，中间存在一个短暂的“双弱”区间。处理方式有三种：</p>
+        <ol>
+          <li><b>提前接管</b>：辅助手在第 80 帧就切入，双弱区间被压缩，但容易造成两手挤在一起。</li>
+          <li><b>延迟卸力</b>：主力手撑到第 88 帧再松，稳定性好，但对指力要求高。</li>
+          <li><b>同步过渡</b>：在第 84 帧前后各留两帧缓冲，两手共同承力，最稳但需要更多练习。</li>
+        </ol>
+        <p>多数练习者在没有对照的情况下会本能选择第一种，因为“怕掉”。但第 12 期的失败示范显示，提前接管恰恰是造成换手后手位偏移的主要原因。</p>
+
+        <h3>偏差对照该怎么用</h3>
+        <p>偏差对照表列了 18 类常见问题，不建议一次性全看。更有效的用法是：先完整做一轮并自录，然后只挑自己录像里明显出现的那两三处去对照，改完再录一轮。一次性对照太多项，反而会让动作变得僵硬。</p>
+        <ul>
+          <li>优先处理影响承力的偏差，例如指根离位、掌心压实。</li>
+          <li>其次处理影响连贯的偏差，例如段间停顿、呼吸错位。</li>
+          <li>最后处理观感类偏差，例如手指张开的幅度。</li>
+        </ul>
+        <p>顺序反过来做，常常会出现“动作看起来对了，但手感始终不对”的情况。</p>
+
+        <h3>手型差异带来的调整</h3>
+        <p>手指较短或手掌较宽的练习者，在辅助手切入时会明显吃力。这类情况下，把切入角度从正侧改为斜 30° 左右，往往比硬练原角度更有效。第 7 期《辅助手切入角度》里给出了按手型选择的三条判断线，可以先量一下自己食指到小指展开的宽度，再对应选择。</p>
+      </section>
+
+      <!-- 6 练习顺序 -->
+      <section class="block" id="practice" aria-labelledby="practice-h">
+        <div class="block-head">
+          <h2 id="practice-h">练习顺序与判断依据</h2>
+          <span class="sub">分阶段跟练</span>
+        </div>
+        <p class="block-intro">内容消费的顺序直接影响上手速度。下面这套顺序按“先稳后快、先单后连”的原则排列，每阶段给出判断是否该进入下一阶段的标准。</p>
+        <ol class="steps">
+          <li><strong>第一阶段：起手定型（约 3 天）</strong><span>只看《鲁78基础起手分解》，每天 15 分钟。判断标准：能保持握持 20 秒手腕不酸、不需微调。</span></li>
+          <li><strong>第二阶段：单段推进（约 5 天）</strong><span>看《鲁78推进节奏对照表》，先固定中节奏。判断标准：连续十段每段时长误差在 1 秒内。</span></li>
+          <li><strong>第三阶段：节奏稳定（约 1 周）</strong><span>加入《鲁78呼吸与节奏配合》，把呼吸锚点固定下来。判断标准：做完一轮不出现明显加速。</span></li>
+          <li><strong>第四阶段：换手衔接（约 1 周）</strong><span>进入《鲁78换手衔接第 84 帧》，先练同步过渡。判断标准：换手后手位偏移肉眼可见地减小。</span></li>
+          <li><strong>第五阶段：连续三轮</strong><span>看《鲁78连续三轮稳定性》，记录每轮用时差。判断标准：三轮用时差在 3 秒内。</span></li>
+          <li><strong>第六阶段：自录复盘</strong><span>用《鲁78自录对照复盘》固定机位，每两周录一次做纵向比较。</span></li>
+        </ol>
+        <p>如果某一阶段反复卡住超过一周，不要急着往下走，回到上一阶段重看对应拆解，通常问题出在前一阶段的承力面没有定稳。</p>
+      </section>
+
+      <!-- 7 FAQ -->
+      <section class="block faq" id="faq" aria-labelledby="faq-h">
+        <div class="block-head">
+          <h2 id="faq-h">常见问答</h2>
+          <span class="sub">6 问</span>
+        </div>
+
+        <details>
+          <summary>第一次接触鲁78，应该从哪一段开始看？</summary>
+          <div class="ans">从《鲁78基础起手分解》开始，不要直接看换手内容。起手定型之后再进入推进节奏，通常能省下大量反复纠错的时间。如果已经有一定基础但手感不稳，可以先看《鲁78腕部晃动纠正》定位问题，再回头补起手。</div>
+        </details>
+
+        <details>
+          <summary>鲁78的推进节奏一般多久一段比较合适？</summary>
+          <div class="ans">多数练习者的稳定区在每段 5—7 秒。新手建议先固定在 8—10 秒建立手位记忆，熟练后再逐步压缩。快于 4 秒时腕部晃动会明显增加，除非已经能稳定完成连续三轮，否则不建议长期停在快节奏。</div>
+        </details>
+
+        <details>
+          <summary>换手时总是掉手感，是力度不够吗？</summary>
+          <div class="ans">多数情况不是力度问题，而是卸力时机太早。第 84 帧前后存在一个双弱区间，提前松手会让辅助手被迫仓促接管。可以先练“同步过渡”，在第 84 帧前后各留两帧缓冲，让两手共同承力，稳定后再逐步压缩缓冲帧数。</div>
+        </details>
+
+        <details>
+          <summary>慢节奏和快节奏的鲁78手法有什么实质区别？</summary>
+          <div class="ans">动作结构相同，区别在段间缓冲与力度递增曲线。慢节奏的缓冲更长，力度递增更平缓，适合建立记忆；快节奏压缩缓冲，力度递增更陡，对腕部稳定性要求更高。两者不是难度高低的关系，而是适配不同阶段。</div>
+        </details>
+
+        <details>
+          <summary>手比较小，辅助手切入总是别扭怎么办？</summary>
+          <div class="ans">把切入角度从正侧调整为斜 30° 左右，通常能明显改善。可以先量食指到小指展开的宽度，再对照《鲁78辅助手切入角度》里的三条判断线选择。硬练原角度容易形成代偿动作，后期更难改。</div>
+        </details>
+
+        <details>
+          <summary>自录复盘时，机位应该怎么摆才能和拆解视频对上？</summary>
+          <div class="ans">相机与手部保持同一高度，正侧 45° 是最通用的角度，光线从侧前方打避免手部阴影遮挡手指。录完后先看整体节奏，再逐帧比对关键位置，不要一上来就逐帧看，容易失去对整体节奏的判断。</div>
+        </details>
+      </section>
+
+      <!-- 8 评论 -->
+      <section class="block" id="comments" aria-labelledby="comments-h">
+        <div class="block-head">
+          <h2 id="comments-h">练习者评论</h2>
+          <span class="sub">16 条</span>
+        </div>
+        <div class="comments">
+          <div class="cm"><div class="who"><span class="avatar" style="background:#0f6f6a">林</span><b>林间小路</b><time>11-25 10:12</time></div><p>第 84 帧那段慢放真的解决问题了，之前一直以为是自己指力不够，其实是松太早。</p><span class="ref">换手衔接</span></div>
+          <div class="cm"><div class="who"><span class="avatar" style="background:#c1502e">周</span><b>周舟不系</b><time>11-25 09:40</time></div><p>起手分解讲得比其他地方细，指根承力这个点我练了三天才有感觉，但确实稳很多。</p><span class="ref">基础起手</span></div>
+          <div class="cm"><div class="who"><span class="avatar" style="background:#b8862a">陈</span><b>陈默练习中</b><time>11-24 22:03</time></div><p>推进节奏对照表挺实用，不过我觉得中节奏那档 5—7 秒跨度还是有点大，最好再细分一下。</p><span class="ref">推进节奏</span></div>
+          <div class="cm"><div class="who"><span class="avatar" style="background:#33475a">苏</span><b>苏木南</b><time>11-24 20:47</time></div><p>腕部晃动纠正里的第四种成因说到我了，小指离位完全没意识到，改了两天好很多。</p><span class="ref">错误纠正</span></div>
+          <div class="cm"><div class="who"><span class="avatar" style="background:#0b8f86">何</span><b>何以解忧</b><time>11-24 18:30</time></div><p>连续三轮那个记录表打印出来用了，第二轮漂移量确实比第一轮大，之前完全没注意。</p><span class="ref">连续练习</span></div>
+          <div class="cm"><div class="who"><span class="avatar" style="background:#7a5a1e">吴</span><b>吴桐不高</b><time>11-23 23:15</time></div><p>呼吸那期一开始觉得没必要，练到第三轮才发现呼吸错位真的会带着节奏乱掉。</p><span class="ref">节奏配合</span></div>
+          <div class="cm"><div class="who"><span class="avatar" style="background:#0f6f6a">郑</span><b>郑好路过</b><time>11-23 16:22</time></div><p>自录复盘的机位建议很具体，按 45° 摆完终于能和拆解视频对上了。</p><span class="ref">自录复盘</span></div>
+          <div class="cm"><div class="who"><span class="avatar" style="background:#c1502e">许</span><b>许半仙</b><time>11-22 21:08</time></div><p>辅助手切入角度讲得清楚，但按手型选择那部分希望能出个可量化的表。</p><span class="ref">换手衔接</span></div>
+          <div class="cm"><div class="who"><span class="avatar" style="background:#33475a">马</span><b>马小满</b><time>11-22 14:56</time></div><p>收势那期时长偏短，不过卸力节奏讲明白了，慢收确实更利于下一轮起手。</p><span class="ref">收势复位</span></div>
+          <div class="cm"><div class="who"><span class="avatar" style="background:#b8862a">高</span><b>高处不寒</b><time>11-21 19:34</time></div><p>跟着六阶段顺序练了两周，最大的变化是不再一上手就加速了。</p><span class="ref">练习顺序</span></div>
+          <div class="cm"><div class="who"><span class="avatar" style="background:#0b8f86">叶</span><b>叶上初阳</b><time>11-21 11:02</time></div><p>偏差对照表建议按承力、连贯、观感分级，这点很关键，之前一口气全改反而更乱。</p><span class="ref">错误纠正</span></div>
+          <div class="cm"><div class="who"><span class="avatar" style="background:#7a5a1e">罗</span><b>罗盘指针</b><time>11-20 22:41</time></div><p>希望多出一些失败示范，成功示范看多了容易觉得自己也行了，失败示范更有参考价值。</p><span class="ref">内容建议</span></div>
+          <div class="cm"><div class="who"><span class="avatar" style="background:#0f6f6a">彭</span><b>彭城旧事</b><time>11-19 20:19</time></div><p>快节奏那档我练了两天就退了，腕部晃动控制不住，还是老实回中节奏。</p><span class="ref">推进节奏</span></div>
+          <div class="cm"><div class="who"><span class="avatar" style="background:#c1502e">钟</span><b>钟于原味</b><time>11-19 15:07</time></div><p>整体讲得扎实，就是第 10 期的正侧双机位切换有点快，建议加个可暂停的标注。</p><span class="ref">观看体验</span></div>
+          <div class="cm"><div class="who"><span class="avatar" style="background:#33475a">曹</span><b>曹衣出水</b><time>11-18 21:55</time></div><p>量了手宽之后改用斜 30° 切入，确实顺很多，这个按手型选择的思路值得推广。</p><span class="ref">换手衔接</span></div>
+          <div class="cm"><div class="who"><span class="avatar" style="background:#0b8f86">尹</span><b>尹山而居</b><time>11-18 10:26</time></div><p>建议把第 84 帧的关键位置做个肉眼可见的标记，慢放时还是有点难找。</p><span class="ref">内容建议</span></div>
+        </div>
+      </section>
+
+      <!-- 9 资讯 -->
+      <section class="block" id="news" aria-labelledby="news-h">
+        <div class="block-head">
+          <h2 id="news-h">相关资讯</h2>
+          <span class="sub">6 条 · 近 30 天</span>
+        </div>
+        <div class="news">
+          <article>
+            <img src="https://picsum.photos/seed/lu78-news01/600/400" width="600" height="400" loading="lazy" alt="鲁78换手衔接第12期上线资讯配图">
+            <div>
+              <time datetime="2026-11-25">2026-11-25</time>
+              <h3>鲁78换手衔接第 12 期上线，补入三段 0.25× 慢放</h3>
+              <p>本期聚焦第 84 帧过渡，新增两种失败示范，并首次标注双弱区间的帧范围。</p>
+            </div>
+          </article>
+          <article>
+            <img src="https://picsum.photos/seed/lu78-news02/600/400" width="600" height="400" loading="lazy" alt="鲁78偏差对照表修订资讯配图">
+            <div>
+              <time datetime="2026-11-25">2026-11-25</time>
+              <h3>偏差对照表升至 v3.2，腕部外翻单独列为第 18 类</h3>
+              <p>修订说明指出，腕部外翻与掌心压实常同时出现，建议合并对照而不是分开逐项修改。</p>
+            </div>
+          </article>
+          <article>
+            <img src="https://picsum.photos/seed/lu78-news03/600/400" width="600" height="400" loading="lazy" alt="鲁78练习者自录征集活动资讯配图">
+            <div>
+              <time datetime="2026-11-24">2026-11-24</time>
+              <h3>第二轮手位漂移自录征集已收 46 份投稿</h3>
+              <p>本轮征集将持续到 12 月初，入选片段会作为偏差对照的补充案例。</p>
+            </div>
+          </article>
+          <article>
+            <img src="https://picsum.photos/seed/lu78-news04/600/400" width="600" height="400" loading="lazy" alt="鲁78入门观看顺序调整资讯配图">
+            <div>
+              <time datetime="2026-11-21">2026-11-21</time>
+              <h3>入门观看顺序调整：起手分解前置于推进节奏</h3>
+              <p>调整理由是新手在未定型起手前直接看推进节奏，容易形成代偿动作，后期修正成本更高。</p>
+            </div>
+          </article>
+          <article>
+            <img src="https://picsum.photos/seed/lu78-news05/600/400" width="600" height="400" loading="lazy" alt="鲁78连续三轮记录表新增栏目资讯配图">
+            <div>
+              <time datetime="2026-11-16">2026-11-16</time>
+              <h3>连续三轮记录表新增用时差与漂移量两栏</h3>
+              <p>新增栏目用于纵向比较不同阶段的稳定性变化，可直接打印跟练记录。</p>
+            </div>
+          </article>
+          <article>
+            <img src="https://picsum.photos/seed/lu78-news06/600/400" width="600" height="400" loading="lazy" alt="鲁78换手专题问答汇总资讯配图">
+            <div>
+              <time datetime="2026-11-08">2026-11-08</time>
+              <h3>换手专题问答汇总 22 条提问</h3>
+              <p>提问集中在松手时机与辅助手角度两类，逐条给出处理方式并关联到对应演示段落。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 10 相关推荐 -->
+      <section class="block" id="related" aria-labelledby="related-h">
+        <div class="block-head">
+          <h2 id="related-h">延伸方向</h2>
+          <span class="sub">8 个</span>
+        </div>
+        <div class="relgrid">
+          <div class="relitem"><b>手型差异适配</b><span>手指长度、手掌宽度的调整思路</span></div>
+          <div class="relitem"><b>辅助工具选择</b><span>垫材厚度、摩擦系数的影响</span></div>
+          <div class="relitem"><b>呼吸与节奏</b><span>呼吸锚点如何稳定推进速度</span></div>
+          <div class="relitem"><b>慢放逐帧观看法</b><span>0.25× 与 0.5× 各自适用的场景</span></div>
+          <div class="relitem"><b>连续三轮耐力</b><span>第二轮手位漂移的控制方法</span></div>
+          <div class="relitem"><b>失败示范合集</b><span>比成功示范更好用的对照素材</span></div>
+          <div class="relitem"><b>自录机位设置</b><span>高度、角度、光线的三条基准</span></div>
+          <div class="relitem"><b>偏差分级处理</b><span>承力、连贯、观感的修改优先级</span></div>
+        </div>
+      </section>
+
+      <!-- 11 时间线 -->
+      <section class="block" id="timeline" aria-labelledby="timeline-h">
+        <div class="block-head">
+          <h2 id="timeline-h">内容时间线</h2>
+          <span class="sub">近 30 天主要节点</span>
+        </div>
+        <ul class="timeline">
+          <li><time datetime="2026-11-25">2026-11-25</time><b>换手衔接第 12 期上线</b><span>第 84 帧过渡拆解，含三段慢放与两种失败示范。</span></li>
+          <li><time datetime="2026-11-25">2026-11-25</time><b>偏差对照表 v3.2</b><span>腕部外翻单独成项，共 18 类。</span></li>
+          <li><time datetime="2026-11-23">2026-11-23</time><b>呼吸与节奏配合上线</b><span>补齐呼吸锚点章节与错位表现。</span></li>
+          <li><time datetime="2026-11-21">2026-11-21</time><b>入门观看顺序调整</b><span>起手分解前置于推进节奏。</span></li>
+          <li><time datetime="2026-11-19">2026-11-19</time><b>腕部晃动纠正上线</b><span>新增“小指离位”成因。</span></li>
+          <li><time datetime="2026-11-12">2026-11-12</time><b>辅助手切入角度上线</b><span>按手型选择的三条判断线。</span></li>
+          <li><time datetime="2026-11-03">2026-11-03</time><b>自录对照复盘上线</b><span>手机与相机两种机位方案。</span></li>
+        </ul>
+      </section>
+
+    </div>
+
+    <!-- 右辅助栏 -->
+    <aside class="aside" aria-label="辅助信息">
+      <div class="panel">
+        <h2>练习热度榜</h2>
+        <ol class="ranklist">
+          <li><a href="#picks">换手衔接第 84 帧<small>9.5 分 · 第 12 期</small></a></li>
+          <li><a href="#picks">基础起手分解<small>9.4 分 · 入门首选</small></a></li>
+          <li><a href="#picks">自录对照复盘<small>9.3 分 · 机位设置</small></a></li>
+          <li><a href="#picks">推进节奏对照表<small>9.2 分 · 双机位</small></a></li>
+          <li><a href="#picks">辅助手切入角度<small>9.1 分 · 手型适配</small></a></li>
+          <li><a href="#picks">腕部晃动纠正<small>9.0 分 · 偏差对照</small></a></li>
+        </ol>
+      </div>
+
+      <div class="panel">
+        <h2>今日更新</h2>
+        <ul class="updatelist">
+          <li><time>09:30</time><span>换手衔接第 12 期</span></li>
+          <li><time>08:05</time><span>偏差对照表 v3.2</span></li>
+          <li><time>昨天</time><span>自录征集 46 份</span></li>
+          <li><time>11-23</time><span>呼吸与节奏配合</span></li>
+          <li><time>11-21</time><span>入门观看顺序调整</span></li>
+        </ul>
+      </div>
+
+      <div class="panel">
+        <h2>常搜方向</h2>
+        <div class="tagcloud">
+          <a href="#picks">起手指根承力</a>
+          <a href="#picks">第 84 帧过渡</a>
+          <a href="#picks">同步过渡</a>
+          <a href="#picks">腕部外翻</a>
+          <a href="#deep">双弱区间</a>
+          <a href="#practice">六阶段跟练</a>
+          <a href="#faq">手型适配</a>
+          <a href="#picks">0.25× 慢放</a>
+          <a href="#picks">三轮用时差</a>
+        </div>
+      </div>
+    </aside>
+
+  </div>
+</main>
+
+<footer class="sitefoot">
+  <div class="wrap">
+    <div class="foot-top">
+      <div>
+        <div class="foot-brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 7.5c2.6-2 5.4-2 8 0s5.4 2 8 0"/>
+              <path d="M4 13c2.6-2 5.4-2 8 0s5.4 2 8 0"/>
+              <path d="M4 18.5c2.6-2 5.4-2 8 0s5.4 2 8 0"/>
+            </svg>
+          </span>
+          <strong>鲁78正确手法视频</strong>
+        </div>
+        <p>以分帧慢放、手位标注与偏差对照为核心的手法教学频道，覆盖起手、推进、换手、收势四个阶段，提供可跟练的拆解演示与练习顺序建议。</p>
+      </div>
+      <div>
+        <h3>内容栏目</h3>
+        <ul>
+          <li><a href="#overview">领域概览</a></li>
+          <li><a href="#picks">精选拆解</a></li>
+          <li><a href="#deep">深度解析</a></li>
+          <li><a href="#practice">练习顺序</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>学习支持</h3>
+        <ul>
+          <li><a href="#faq">常见问答</a></li>
+          <li><a href="#comments">练习者评论</a></li>
+          <li><a href="#news">相关资讯</a></li>
+          <li><a href="#timeline">内容时间线</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>延伸方向</h3>
+        <ul>
+          <li><a href="#related">手型适配</a></li>
+          <li><a href="#related">辅助工具选择</a></li>
+          <li><a href="#related">自录机位设置</a></li>
+          <li><a href="#related">偏差分级处理</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>演示条目、评分与练习数据为频道内示例记录，以实际发布内容为准。</span>
+      <span>© 2026 鲁78正确手法视频 · 内容更新至 2026-11-25</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var input = document.getElementById('q');
+  var btn = document.getElementById('qbtn');
+  var cards = Array.prototype.slice.call(document.querySelectorAll('#picklist .card'));
+  var noresult = document.getElementById('noresult');
+
+  function run(){
+    var q = (input.value || '').trim().toLowerCase();
+    if(!q){
+      cards.forEach(function(c){ c.classList.remove('filtered-out'); });
+      noresult.classList.remove('on');
+      return;
+    }
+    var hit = 0;
+    cards.forEach(function(c){
+      var text = (c.getAttribute('data-key') + ' ' + c.textContent).toLowerCase();
+      var ok = text.indexOf(q) !== -1;
+      c.classList.toggle('filtered-out', !ok);
+      if(ok) hit++;
+    });
+    noresult.classList.toggle('on', hit === 0);
+  }
+
+  input.addEventListener('input', run);
+  input.addEventListener('keydown', function(e){
+    if(e.key === 'Enter'){ e.preventDefault(); run(); }
+  });
+  btn.addEventListener('click', function(e){ e.preventDefault(); run(); });
+})();
+</script>
+</body>
+              </html>
